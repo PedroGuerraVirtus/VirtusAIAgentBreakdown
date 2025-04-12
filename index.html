@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Your Lead Response with AI Chatbots | Virtus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body class="locked">
+    <!-- Lead Capture Popup -->
+    <div id="lead-capture-overlay" class="active">
+        <div class="lead-capture-popup">
+            <div class="popup-header">
+                <img src="images/virtus-logo.png" alt="Virtus Logo" class="popup-logo">
+                <h2>Unlock Your Free Guide</h2>
+            </div>
+            <p>Enter your information below to access our comprehensive guide on transforming your lead response with AI chatbots.</p>
+            <form id="lead-capture-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="company" name="company" placeholder="Company Name" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="submit-button">Get Instant Access</button>
+                </div>
+                <p class="privacy-note">We respect your privacy. Your information will never be shared with third parties.</p>
+            </form>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/virtus-logo.png" alt="Virtus Logo" class="logo">
+            </div>
+            <nav>
+                <div class="dropdown-menu">
+                    <button class="menu-button">Menu <span class="arrow">▼</span></button>
+                    <ul class="dropdown-content">
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#understanding">Understanding AI Chatbots</a></li>
+                        <li><a href="#benefits">Key Benefits</a></li>
+                        <li><a href="#implementation">Implementation</a></li>
+                        <li><a href="#best-practices">Best Practices</a></li>
+                        <li><a href="#measuring">Measuring Success</a></li>
+                        <li><a href="#virtus">How Virtus Can Help</a></li>
+                        <li><a href="#next-steps">Next Steps</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transform Your Lead Response with AI Chatbots</h1>
+                <h2>A Comprehensive Guide for Business Owners</h2>
+                <p>Discover how to boost conversion rates, qualify leads 24/7, and give your business the competitive edge with AI-powered conversations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="introduction" class="content-section">
+        <div class="container">
+            <h2>1. Introduction: The Lead Response Challenge</h2>
+            <p>In today's fast-paced business environment, the difference between winning a new customer and losing them to a competitor often comes down to response time. Research from Harvard Business Review reveals that businesses that contact potential customers within an hour of receiving an inquiry are nearly 7 times more likely to have a meaningful conversation with a key decision-maker than those that wait even an hour longer.</p>
+            <p>Yet despite this knowledge, the average response time to leads across industries is a staggering 42 hours. By then, your prospect has likely moved on or chosen a competitor who responded promptly.</p>
+            <p>As a business owner, you face several challenges:</p>
+            <ul>
+                <li>The need to respond to leads instantly</li>
+                <li>Limited availability of your team (especially after hours)</li>
+                <li>The high cost of staffing for 24/7 coverage</li>
+                <li>Maintaining consistent quality in lead qualification</li>
+                <li>Scaling your response capabilities as your business grows</li>
+            </ul>
+            <p>This guide will show you how AI chatbots can solve these challenges, providing you with practical implementation strategies and best practices that you can apply to your business immediately.</p>
+        </div>
+    </section>
+
+    <section id="understanding" class="content-section alt-bg">
+        <div class="container">
+            <h2>2. Understanding AI Chatbots and Their Evolution</h2>
+            
+            <h3>What Are AI Chatbots?</h3>
+            <p>AI chatbots are software applications that use artificial intelligence and natural language processing to understand and respond to human conversations. Unlike basic rule-based chatbots that follow pre-programmed scripts, modern AI chatbots can:</p>
+            <ul>
+                <li>Understand natural language and context</li>
+                <li>Learn from previous interactions</li>
+                <li>Handle complex conversations</li>
+                <li>Adapt to different scenarios</li>
+                <li>Integrate with your existing business systems</li>
+            </ul>
+            
+            <h3>The Evolution of Chatbot Technology</h3>
+            <div class="evolution-container">
+                <div class="evolution-box">
+                    <h4>First Generation: Rule-Based Chatbots</h4>
+                    <ul>
+                        <li>Follow rigid, pre-defined scripts</li>
+                        <li>Limited to simple, predictable interactions</li>
+                        <li>Unable to handle unexpected questions</li>
+                        <li>Often frustrating for users</li>
+                    </ul>
+                </div>
+                
+                <div class="evolution-box">
+                    <h4>Second Generation: AI-Powered Chatbots</h4>
+                    <ul>
+                        <li>Use machine learning to understand intent</li>
+                        <li>Can handle more complex conversations</li>
+                        <li>Able to learn from interactions</li>
+                        <li>Provide more natural responses</li>
+                    </ul>
+                </div>
+                
+                <div class="evolution-box">
+                    <h4>Current Generation: Conversational AI Agents</h4>
+                    <ul>
+                        <li>Understand context and nuance</li>
+                        <li>Can perform complex tasks autonomously</li>
+                        <li>Integrate with multiple business systems</li>
+                        <li>Provide personalized experiences</li>
+                        <li>Continuously improve through machine learning</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h3>Types of AI Chatbots for Lead Response</h3>
+            <div class="types-container">
+                <div class="type-box">
+                    <h4>Lead Capture Chatbots</h4>
+                    <p>Focus on collecting contact information and basic qualification data from website visitors.</p>
+                </div>
+                
+                <div class="type-box">
+                    <h4>Lead Qualification Chatbots</h4>
+                    <p>Ask a series of questions to determine if a lead meets your specific criteria before routing them to your sales team.</p>
+                </div>
+                
+                <div class="type-box">
+                    <h4>Appointment Scheduling Chatbots</h4>
+                    <p>Qualify leads and then schedule meetings directly on your team's calendar.</p>
+                </div>
+                
+                <div class="type-box">
+                    <h4>Full-Funnel Conversation Agents</h4>
+                    <p>Handle the entire initial sales conversation, from qualification to objection handling to scheduling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="content-section">
+        <div class="container">
+            <h2>3. Key Benefits of AI-Powered Lead Response</h2>
+            
+            <div class="benefit-container">
+                <div class="benefit-box">
+                    <h3>Immediate Response at Any Time</h3>
+                    <p>AI chatbots respond instantly to inquiries 24/7/365, ensuring no lead goes unanswered regardless of when they reach out. This immediate engagement captures leads at their moment of highest interest.</p>
+                    <p class="highlight">A study by Drift found that businesses using chatbots for lead response saw a 36% higher conversion rate compared to those using traditional contact forms.</p>
+                </div>
+                
+                <div class="benefit-box">
+                    <h3>Consistent Lead Qualification</h3>
+                    <p>AI chatbots follow your exact qualification criteria every time, eliminating the inconsistency that can occur with human teams. This ensures that all leads are evaluated using the same standards.</p>
+                    <p class="highlight">Start with 3-5 key qualification questions that identify your ideal customers. You can refine and expand these criteria as you gather more data.</p>
+                </div>
+                
+                <div class="benefit-box">
+                    <h3>Scalability Without Proportional Costs</h3>
+                    <p>Unlike human teams, AI chatbots can handle virtually unlimited simultaneous conversations without additional cost. This allows your business to scale lead generation without proportionally increasing staff.</p>
+                    <p class="highlight">The average cost of a full-time sales development representative is $45,000-$60,000 annually, while an AI chatbot subscription typically ranges from $300-$1,000 per month with unlimited conversations.</p>
+                </div>
+                
+                <div class="benefit-box">
+                    <h3>Enhanced Data Collection and Insights</h3>
+                    <p>AI chatbots capture detailed information about prospect needs, objections, and interests. This data can inform your marketing strategy, product development, and sales approach.</p>
+                    <p class="highlight">Review chatbot conversations monthly to identify common questions, objections, and pain points that can help refine your marketing messages.</p>
+                </div>
+                
+                <div class="benefit-box">
+                    <h3>Improved Team Efficiency</h3>
+                    <p>By handling initial qualification, AI chatbots free your sales team to focus exclusively on high-value activities with qualified prospects.</p>
+                    <p class="highlight">Businesses implementing AI chatbots for lead qualification report that sales representatives spend 60-70% more time on selling activities rather than lead qualification and administrative tasks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="implementation" class="content-section alt-bg">
+        <div class="container">
+            <h2>4. Implementation Guide: Setting Up Your First AI Chatbot</h2>
+            
+            <div class="steps-container">
+                <div class="step-box">
+                    <div class="step-number">1</div>
+                    <h3>Define Your Objectives</h3>
+                    <p>Before selecting a chatbot platform, clearly define what you want your chatbot to accomplish:</p>
+                    <ul>
+                        <li>Lead capture only</li>
+                        <li>Basic qualification</li>
+                        <li>Appointment scheduling</li>
+                        <li>Full sales conversations</li>
+                        <li>Support for existing customers</li>
+                    </ul>
+                    <p class="tip">Start with a focused objective rather than trying to do everything at once. You can expand your chatbot's capabilities as you gain experience.</p>
+                </div>
+                
+                <div class="step-box">
+                    <div class="step-number">2</div>
+                    <h3>Map Your Qualification Process</h3>
+                    <p>Document your current lead qualification process:</p>
+                    <ol>
+                        <li>What questions do you ask to determine if a lead is qualified?</li>
+                        <li>What information do you need to collect from every lead?</li>
+                        <li>What are your criteria for routing leads to different team members?</li>
+                        <li>What are the common objections or questions that arise during qualification?</li>
+                    </ol>
+                    <div class="table-container">
+                        <h4>Template Example:</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Question</th>
+                                    <th>Purpose</th>
+                                    <th>Possible Responses</th>
+                                    <th>Next Step</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>What industry are you in?</td>
+                                    <td>Industry qualification</td>
+                                    <td>[List target industries]</td>
+                                    <td>If target industry, continue. If not, provide alternative resource.</td>
+                                </tr>
+                                <tr>
+                                    <td>How many employees do you have?</td>
+                                    <td>Company size qualification</td>
+                                    <td>1-10, 11-50, 51-200, 201+</td>
+                                    <td>If 11+, continue. If 1-10, route to small business resources.</td>
+                                </tr>
+                                <tr>
+                                    <td>What is your timeline for implementation?</td>
+                                    <td>Urgency qualification</td>
+                                    <td>Immediate, 1-3 months, 3+ months</td>
+                                    <td>If immediate or 1-3 months, high priority routing.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="step-box">
+                    <div class="step-number">3</div>
+                    <h3>Select the Right Platform</h3>
+                    <p>Several platforms offer AI chatbot capabilities with varying levels of sophistication:</p>
+                    
+                    <div class="platform-options">
+                        <div class="platform-category">
+                            <h4>Entry-Level Options:</h4>
+                            <ul>
+                                <li>ManyChat</li>
+                                <li>Chatfuel</li>
+                                <li>MobileMonkey</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="platform-category">
+                            <h4>Mid-Range Options:</h4>
+                            <ul>
+                                <li>Intercom</li>
+                                <li>Drift</li>
+                                <li>Zendesk Answer Bot</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="platform-category">
+                            <h4>Advanced Options:</h4>
+                            <ul>
+                                <li>Ada</li>
+                                <li>[24]7.ai</li>
+                                <li>IBM Watson Assistant</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <h4>Selection Criteria:</h4>
+                    <ul>
+                        <li>Integration capabilities with your existing CRM and tools</li>
+                        <li>Natural language processing capabilities</li>
+                        <li>Customization options</li>
+                        <li>Analytics and reporting</li>
+                        <li>Pricing model (per user, per conversation, or flat fee)</li>
+                        <li>Mobile optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="step-box">
+                    <div class="step-number">4</div>
+                    <h3>Design Conversation Flows</h3>
+                    <p>Create flowcharts for different conversation scenarios:</p>
+                    <ol>
+                        <li><strong>Main Qualification Flow:</strong> The primary path for qualifying new leads</li>
+                        <li><strong>Objection Handling Flows:</strong> How to respond to common concerns</li>
+                        <li><strong>Scheduling Flow:</strong> Process for booking meetings with qualified leads</li>
+                        <li><strong>Disqualification Flow:</strong> How to handle leads that don't meet your criteria</li>
+                    </ol>
+                    
+                    <h4>Design Principles:</h4>
+                    <ul>
+                        <li>Keep initial messages short and engaging</li>
+                        <li>Ask one question at a time</li>
+                        <li>Provide multiple-choice options when possible</li>
+                        <li>Include escape hatches for human assistance</li>
+                        <li>Maintain a conversational, friendly tone</li>
+                    </ul>
+                </div>
+                
+                <div class="step-box">
+                    <div class="step-number">5</div>
+                    <h3>Integration with Your Tech Stack</h3>
+                    <p>Connect your chatbot with your existing business systems:</p>
+                    <ul>
+                        <li>CRM (Salesforce, HubSpot, etc.)</li>
+                        <li>Email marketing platform</li>
+                        <li>Calendar/scheduling software</li>
+                        <li>Support ticketing system</li>
+                        <li>Analytics tools</li>
+                    </ul>
+                    
+                    <h4>Integration Benefits:</h4>
+                    <ul>
+                        <li>Automatic lead record creation</li>
+                        <li>Synchronized data across systems</li>
+                        <li>Streamlined handoff to human team members</li>
+                        <li>Comprehensive reporting</li>
+                    </ul>
+                </div>
+                
+                <div class="step-box">
+                    <div class="step-number">6</div>
+                    <h3>Testing and Optimization</h3>
+                    <p>Before full deployment:</p>
+                    <ol>
+                        <li>Conduct internal testing with team members</li>
+                        <li>Run A/B tests on different conversation flows</li>
+                        <li>Gather feedback from a small segment of customers</li>
+                        <li>Review and refine based on initial performance</li>
+                    </ol>
+                    
+                    <h4>Testing Checklist:</h4>
+                    <ul>
+                        <li>Does the chatbot correctly identify qualified leads?</li>
+                        <li>Are conversations natural and engaging?</li>
+                        <li>Does the integration with other systems work properly?</li>
+                        <li>Is the handoff to human team members smooth?</li>
+                        <li>Are there any common questions the chatbot can't handle?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="best-practices" class="content-section">
+        <div class="container">
+            <h2>5. Best Practices for Effective Lead Qualification</h2>
+            
+            <div class="practices-container">
+                <div class="practice-box">
+                    <h3>Conversational Design Principles</h3>
+                    <p><strong>Be Transparent:</strong> Let users know they're talking to an AI assistant.</p>
+                    <div class="example-box">
+                        <p>"Hi there! I'm [Name], the virtual assistant for [Company]. I'm here to understand your needs and connect you with the right person on our team."</p>
+                    </div>
+                    
+                    <p><strong>Keep It Conversational:</strong> Use natural language rather than formal business speak.</p>
+                    <div class="example-box">
+                        <p>Instead of "Please provide your industry classification," use "What industry are you in?"</p>
+                    </div>
+                    
+                    <p><strong>Progressive Disclosure:</strong> Start with simple questions before asking for more detailed information.</p>
+                    <div class="example-box">
+                        <p>Begin with "What brought you to our website today?" before diving into qualification questions.</p>
+                    </div>
+                </div>
+                
+                <div class="practice-box">
+                    <h3>Qualification Strategy</h3>
+                    <p><strong>The BANT Framework Adapted for Chatbots:</strong></p>
+                    
+                    <ol>
+                        <li>
+                            <strong>Budget:</strong> "What budget range have you allocated for this project?"
+                            <ul>
+                                <li>Provide ranges rather than asking for specific numbers</li>
+                                <li>Consider asking this later in the conversation</li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <strong>Authority:</strong> "Will you be the primary decision-maker for this purchase?"
+                            <ul>
+                                <li>If not, ask about the decision-making process</li>
+                                <li>Offer resources they can share with decision-makers</li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <strong>Need:</strong> "What specific challenges are you looking to solve?"
+                            <ul>
+                                <li>Use this to tailor subsequent questions</li>
+                                <li>Validate if your solution addresses their specific needs</li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <strong>Timeline:</strong> "When are you looking to implement a solution?"
+                            <ul>
+                                <li>Helps prioritize follow-up</li>
+                                <li>Allows for appropriate nurturing strategies</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+                
+                <div class="practice-box">
+                    <h3>Handling Objections</h3>
+                    <p>Program your chatbot to recognize and address common objections:</p>
+                    
+                    <div class="objection-box">
+                        <h4>Price Objections:</h4>
+                        <p>"I understand budget is an important consideration. Many of our clients found that the ROI from increased conversion rates offset the investment within the first 3 months. Would it be helpful to see some case studies on this?"</p>
+                    </div>
+                    
+                    <div class="objection-box">
+                        <h4>Trust Objections:</h4>
+                        <p>"I completely understand wanting to be sure about who you work with. We've been helping businesses like yours since [year], and I'd be happy to connect you with some of our existing clients who had similar concerns."</p>
+                    </div>
+                    
+                    <div class="objection-box">
+                        <h4>Timing Objections:</h4>
+                        <p>"No problem! Many businesses need time to plan implementation. Would you like me to send you some resources to review in the meantime, or schedule a call for when your timeline aligns better?"</p>
+                    </div>
+                </div>
+                
+                <div class="practice-box">
+                    <h3>Human Handoff Protocols</h3>
+                    <p>Define clear triggers for when the chatbot should transfer to a human:</p>
+                    
+                    <ol>
+                        <li><strong>Explicit Requests:</strong> When a user asks to speak to a human</li>
+                        <li><strong>Confusion Triggers:</strong> When a user expresses frustration or repeats questions</li>
+                        <li><strong>High-Value Indicators:</strong> When a lead meets specific high-value criteria</li>
+                        <li><strong>Complex Scenarios:</strong> When questions or needs fall outside the chatbot's capabilities</li>
+                    </ol>
+                    
+                    <div class="example-box">
+                        <h4>Smooth Transition Example:</h4>
+                        <p>"Based on what you've shared, I think it would be valuable for you to speak directly with our lead solution specialist. I can transfer our conversation to them now, or schedule a call at a time that works for you. What would you prefer?"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="measuring" class="content-section alt-bg">
+        <div class="container">
+            <h2>6. Measuring Success: KPIs and Analytics</h2>
+            
+            <div class="metrics-container">
+                <div class="metrics-box">
+                    <h3>Key Performance Indicators</h3>
+                    
+                    <div class="metric-category">
+                        <h4>Conversation Metrics:</h4>
+                        <ul>
+                            <li>Engagement Rate: Percentage of visitors who interact with the chatbot</li>
+                            <li>Completion Rate: Percentage of conversations that complete the qualification flow</li>
+                            <li>Abandonment Points: Where users most commonly drop off</li>
+                            <li>Average Conversation Length: Time and number of messages exchanged</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="metric-category">
+                        <h4>Qualification Metrics:</h4>
+                        <ul>
+                            <li>Qualification Rate: Percentage of chatbot conversations that result in qualified leads</li>
+                            <li>Lead Quality Score: How well chatbot-qualified leads convert compared to other sources</li>
+                            <li>False Positive Rate: Leads marked as qualified that sales determines are not qualified</li>
+                            <li>False Negative Rate: Leads marked as unqualified that should have been qualified</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="metric-category">
+                        <h4>Business Impact Metrics:</h4>
+                        <ul>
+                            <li>Response Time Improvement: Reduction in average lead response time</li>
+                            <li>Conversion Rate: Percentage of chatbot interactions that convert to customers</li>
+                            <li>Cost Per Qualified Lead: Total chatbot costs divided by number of qualified leads</li>
+                            <li>ROI: Revenue attributed to chatbot-qualified leads compared to chatbot costs</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="metrics-box">
+                    <h3>Analytics and Optimization</h3>
+                    
+                    <div class="analytics-category">
+                        <h4>Regular Review Process:</h4>
+                        <ol>
+                            <li><strong>Weekly:</strong> Check basic engagement metrics and identify any technical issues</li>
+                            <li><strong>Monthly:</strong> Analyze qualification accuracy and conversation flows</li>
+                            <li><strong>Quarterly:</strong> Conduct deeper analysis of business impact and ROI</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="analytics-category">
+                        <h4>Continuous Improvement Strategies:</h4>
+                        
+                        <ol>
+                            <li>
+                                <strong>Conversation Mining:</strong> Analyze actual conversations to identify:
+                                <ul>
+                                    <li>Common questions the chatbot struggles with</li>
+                                    <li>New objections that need to be addressed</li>
+                                    <li>Language patterns that resonate with users</li>
+                                </ul>
+                            </li>
+                            
+                            <li>
+                                <strong>A/B Testing:</strong>
+                                <ul>
+                                    <li>Test different opening messages</li>
+                                    <li>Compare qualification question sequences</li>
+                                    <li>Evaluate different objection handling approaches</li>
+                                </ul>
+                            </li>
+                            
+                            <li>
+                                <strong>Feedback Loops:</strong>
+                                <ul>
+                                    <li>Add a quick satisfaction question at the end of conversations</li>
+                                    <li>Gather feedback from sales team on lead quality</li>
+                                    <li>Review chatbot performance with customers who converted</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="virtus" class="content-section">
+        <div class="container">
+            <h2>7. How Virtus Can Help</h2>
+            
+            <p>While implementing AI chatbots for lead response can deliver significant benefits, many businesses find that expert guidance accelerates results and avoids common pitfalls. At Virtus, we specialize in AI-powered lead conversion solutions that are tailored to your specific business needs.</p>
+            
+            <div class="approach-container">
+                <h3>Our Implementation Approach</h3>
+                
+                <div class="approach-steps">
+                    <div class="approach-step">
+                        <div class="step-number">1</div>
+                        <h4>Strategic Analysis</h4>
+                        <p>We analyze your current lead flow, qualification criteria, and conversion process to identify exactly where and how AI can create the biggest impact for your specific business.</p>
+                    </div>
+                    
+                    <div class="approach-step">
+                        <div class="step-number">2</div>
+                        <h4>Custom Configuration</h4>
+                        <p>We configure your AI chatbot to reflect your brand voice, ask the right qualification questions, and seamlessly integrate with your existing systems.</p>
+                    </div>
+                    
+                    <div class="approach-step">
+                        <div class="step-number">3</div>
+                        <h4>Optimization & Support</h4>
+                        <p>We don't just set it and forget it. We continuously monitor performance, make adjustments, and ensure you're getting maximum ROI from your implementation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="next-steps" class="content-section alt-bg">
+        <div class="container">
+            <h2>8. Next Steps</h2>
+            
+            <p>Ready to transform your lead response with AI chatbots? Here are your options for moving forward:</p>
+            
+            <div class="options-container">
+                <div class="option-box">
+                    <h3>Option 1: Implement on Your Own</h3>
+                    <p>Use the strategies and best practices in this guide to implement an AI chatbot solution for your business. Remember to:</p>
+                    <ul>
+                        <li>Start with clear objectives</li>
+                        <li>Map your qualification process thoroughly</li>
+                        <li>Select the right platform for your needs</li>
+                        <li>Design conversation flows carefully</li>
+                        <li>Test extensively before full deployment</li>
+                    </ul>
+                </div>
+                
+                <div class="option-box highlight-option">
+                    <h3>Option 2: Discover How to Multiply Your Revenue</h3>
+                    <p>We've prepared a special video presentation that shows exactly how our AAA System can transform your business with AI-powered lead conversion.</p>
+                    <p>In this exclusive presentation, you'll discover:</p>
+                    <ul>
+                        <li>The exact system we use to multiply our clients' revenue</li>
+                        <li>How AI and marketing automation work together to create exponential results</li>
+                        <li>Real case studies of businesses that have transformed their lead conversion</li>
+                        <li>The step-by-step process to implement this in your business</li>
+                    </ul>
+                    <a href="https://value.virtusmidia.com/aaasystem" target="_blank" class="cta-button">Watch The Video Now</a>
+                </div>
+                
+                <div class="option-box">
+                    <h3>Option 3: Schedule a Free Discovery Call</h3>
+                    <p>If you'd prefer personalized guidance, schedule a free 30-minute discovery call with one of our AI Implementation Specialists. During this call, we'll:</p>
+                    <ul>
+                        <li>Understand your specific business challenges</li>
+                        <li>Learn about your current lead response process</li>
+                        <li>Identify your ideal customer profile and qualification criteria</li>
+                        <li>Answer any questions you have about implementation</li>
+                    </ul>
+                    
+                    <!-- Calendly inline widget -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/protocolo-kmy/the-funnel-call?primary_color=ff261c" style="min-width:320px;height:700px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/virtus-logo.png" alt="Virtus Logo">
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2025 Virtus | AI-Powered Lead Conversion Solutions</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
