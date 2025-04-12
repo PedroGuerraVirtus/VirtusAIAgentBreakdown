@@ -71,16 +71,52 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => console.error('Error:', error));
             */
             
-            // Show success message and hide popup
-            const formContainer = leadCaptureForm.parentElement;
-            formContainer.innerHTML = `
-                <div class="success-message">
-                    <h3>Thank You!</h3>
-                    <p>You now have full access to our comprehensive guide on transforming your lead response with AI chatbots.</p>
-                    <p>Start exploring the content below to discover how you can boost your conversion rates and grow your business.</p>
-                    <button class="submit-button" id="access-content-btn">Access Content Now</button>
-                </div>
-            `;
+         // Show success message and hide popup
+        document.addEventListener('DOMContentLoaded', function() {
+    const successDiv = document.getElementById('mce-success-response');
+    const popupOverlay = document.getElementById('lead-capture-overlay');
+    const body = document.body;
+
+    if (successDiv && popupOverlay) {
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'childList' || mutation.type === 'attributes') {
+                    if (successDiv.style.display !== 'none') {
+                        // Form submitted successfully, replace form with success message
+                        const form = document.getElementById('mc-embedded-subscribe-form');
+                        if (form) {
+                            const formContainer = form.parentElement;
+                            formContainer.innerHTML = `
+                                <div class="success-message">
+                                    <h3>Thank You!</h3>
+                                    <p>You now have full access to our comprehensive guide on transforming your lead response with AI chatbots.</p>
+                                    <p>Start exploring the content below to discover how you can boost your conversion rates and grow your business.</p>
+                                    <button class="submit-button" id="access-content-btn">Access Content Now</button>
+                                </div>
+                            `;
+
+                            // Add event listener to the button
+                            const accessBtn = document.getElementById('access-content-btn');
+                            accessBtn.addEventListener('click', function() {
+                                popupOverlay.classList.remove('active');
+                                body.classList.remove('locked');
+                            });
+
+                            // Stop observing since we only need to handle success once
+                            observer.disconnect();
+                        }
+                    }
+                }
+            });
+        });
+
+        observer.observe(successDiv, {
+            childList: true,
+            attributes: true,
+            subtree: true
+        });
+    }
+});
             
             // Add event listener to the new button
             document.getElementById('access-content-btn').addEventListener('click', function() {
