@@ -671,5 +671,18 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+<script type="text/javascript">
+(function($) {
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[0]='EMAIL'; ftypes[0]='email';
+    fnames[1]='FNAME'; ftypes[1]='text';
+    fnames[3]='PHONE'; ftypes[3]='phone';
+    fnames[2]='MMERGE2'; ftypes[2]='text';
+}(jQuery));
+var $mcj = jQuery.noConflict(true);
+</script>
 </body>
 </html>
