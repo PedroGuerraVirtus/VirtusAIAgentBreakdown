@@ -65,12 +65,45 @@
     margin-bottom: 1.5rem;
 }
 
+/* Mailchimp Form Styles */
+#mc_embed_signup {
+    width: 100%;
+}
+
+#mc_embed_signup_scroll {
+    width: 100%;
+}
+
+.indicates-required {
+    text-align: right;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    color: #777;
+}
+
+.asterisk {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.mc-field-group {
+    margin-bottom: 1rem;
+}
+
+.mc-field-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
 /* Form Styles */
 .form-group {
     margin-bottom: 1rem;
 }
 
-.lead-capture-popup input {
+.lead-capture-popup input,
+#mc_embed_signup input {
     width: 100%;
     padding: 0.75rem 1rem;
     border: 1px solid #ddd;
@@ -80,12 +113,14 @@
     transition: border-color 0.3s ease;
 }
 
-.lead-capture-popup input:focus {
+.lead-capture-popup input:focus,
+#mc_embed_signup input:focus {
     outline: none;
     border-color: var(--primary-color);
 }
 
-.submit-button {
+.submit-button,
+#mc-embedded-subscribe {
     width: 100%;
     background-color: var(--primary-color);
     color: var(--light-color);
@@ -101,7 +136,8 @@
     letter-spacing: 1px;
 }
 
-.submit-button:hover {
+.submit-button:hover,
+#mc-embedded-subscribe:hover {
     background-color: var(--dark-color);
     transform: translateY(-3px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -113,6 +149,42 @@
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 0;
+}
+
+/* Response Messages */
+#mce-responses {
+    margin-top: 1rem;
+}
+
+#mce-error-response, 
+#mce-success-response {
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+#mce-error-response {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+}
+
+#mce-success-response {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+/* Success Message */
+.success-message {
+    text-align: center;
+    padding: 1rem;
+}
+
+.success-message h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
 }
 
 /* Responsive Adjustments */
@@ -127,5 +199,9 @@
     
     .lead-capture-popup h2 {
         font-size: 1.5rem;
+    }
+    
+    .mc-field-group label {
+        font-size: 0.85rem;
     }
 }
