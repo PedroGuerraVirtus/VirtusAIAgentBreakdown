@@ -11,44 +11,56 @@
     <link rel="stylesheet" href="popup.css">
 </head>
 <body class="locked">
-    <!-- Lead Capture Popup -->
+    <!-- Lead Capture Popup with Mailchimp Integration -->
     <div id="lead-capture-overlay" class="active">
-    <div class="lead-capture-popup">
-        <div class="popup-header">
-            <img src="images/virtus-logo.png" alt="Virtus Logo" class="popup-logo">
-            <h2>Unlock Your Free Guide</h2>
+        <div class="lead-capture-popup">
+            <div class="popup-header">
+                <img src="images/virtus-logo.png" alt="Virtus Logo" class="popup-logo">
+                <h2>Unlock Your Free Guide</h2>
+            </div>
+            <p>Enter your information below to access our comprehensive guide on transforming your lead response with AI chatbots.</p>
+            
+            <!-- Mailchimp Embedded Form -->
+            <div id="mc_embed_signup">
+                <form action="https://virtusmidia.us11.list-manage.com/subscribe/post?u=3c8ae72561699831838b98633&amp;id=c125290494&amp;f_id=00a7cbe3f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
+                    <div id="mc_embed_signup_scroll">
+                        <div class="indicates-required"><span class="asterisk">*</span> indica obrigatório</div>
+                        <div class="mc-field-group form-group">
+                            <label for="mce-EMAIL">Melhor e-mail <span class="asterisk">*</span></label>
+                            <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="" placeholder="Seu e-mail">
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="mce-FNAME">Nome <span class="asterisk">*</span></label>
+                            <input type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value="" placeholder="Seu nome">
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="mce-PHONE">Telefone <span class="asterisk">*</span></label>
+                            <input type="text" name="PHONE" class="REQ_CSS" id="mce-PHONE" value="" placeholder="Seu telefone">
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="mce-MMERGE2">Empresa <span class="asterisk">*</span></label>
+                            <input type="text" name="MMERGE2" class="required text" id="mce-MMERGE2" required="" value="" placeholder="Nome da empresa">
+                        </div>
+                        <div hidden=""><input type="hidden" name="tags" value="10281509"></div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display: none;"></div>
+                            <div class="response" id="mce-success-response" style="display: none;"></div>
+                        </div>
+                        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                            <input type="text" name="b_3c8ae72561699831838b98633_c125290494" tabindex="-1" value="">
+                        </div>
+                        <div class="clear form-group">
+                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="submit-button" value="Get Instant Access">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- End Mailchimp Embedded Form -->
+            
+            <p class="privacy-note">We respect your privacy. Your information will never be shared with third parties.</p>
         </div>
-        <p>Enter your information below to access our comprehensive guide on transforming your lead response with AI chatbots.</p>
-        <form action="https://virtusmidia.us11.list-manage.com/subscribe/post?u=3c8ae72561699831838b98633&id=c125290494&f_id=00a7cbe3f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate>
-            <div class="form-group">
-                <input type="text" name="FNAME" class="required text" id="mce-FNAME" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email" required>
-            </div>
-            <div class="form-group">
-                <input type="tel" name="PHONE" class="required" id="mce-PHONE" placeholder="Your Phone Number" required>
-            </div>
-            <div class="form-group">
-                <input type="text" name="MMERGE2" class="required text" id="mce-MMERGE2" placeholder="Company Name" required>
-            </div>
-            <div style="display: none;">
-                <input type="hidden" name="tags" value="10281509">
-            </div>
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input type="text" name="b_3c8ae72561699831838b98633_c125290494" tabindex="-1" value="">
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Get Instant Access" name="subscribe" id="mc-embedded-subscribe" class="submit-button">
-            </div>
-            <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display: none;"></div>
-                <div class="response" id="mce-success-response" style="display: none;"></div>
-            </div>
-        </form>
-        <p class="privacy-note">We respect your privacy. Your information will never be shared with third parties.</p>
     </div>
-</div>
+
     <header>
         <div class="container">
             <div class="logo-container">
@@ -273,416 +285,10 @@
                         </table>
                     </div>
                 </div>
-                
-                <div class="step-box">
-                    <div class="step-number">3</div>
-                    <h3>Select the Right Platform</h3>
-                    <p>Several platforms offer AI chatbot capabilities with varying levels of sophistication:</p>
-                    
-                    <div class="platform-options">
-                        <div class="platform-category">
-                            <h4>Entry-Level Options:</h4>
-                            <ul>
-                                <li>ManyChat</li>
-                                <li>Chatfuel</li>
-                                <li>MobileMonkey</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="platform-category">
-                            <h4>Mid-Range Options:</h4>
-                            <ul>
-                                <li>Intercom</li>
-                                <li>Drift</li>
-                                <li>Zendesk Answer Bot</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="platform-category">
-                            <h4>Advanced Options:</h4>
-                            <ul>
-                                <li>Ada</li>
-                                <li>[24]7.ai</li>
-                                <li>IBM Watson Assistant</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <h4>Selection Criteria:</h4>
-                    <ul>
-                        <li>Integration capabilities with your existing CRM and tools</li>
-                        <li>Natural language processing capabilities</li>
-                        <li>Customization options</li>
-                        <li>Analytics and reporting</li>
-                        <li>Pricing model (per user, per conversation, or flat fee)</li>
-                        <li>Mobile optimization</li>
-                    </ul>
-                </div>
-                
-                <div class="step-box">
-                    <div class="step-number">4</div>
-                    <h3>Design Conversation Flows</h3>
-                    <p>Create flowcharts for different conversation scenarios:</p>
-                    <ol>
-                        <li><strong>Main Qualification Flow:</strong> The primary path for qualifying new leads</li>
-                        <li><strong>Objection Handling Flows:</strong> How to respond to common concerns</li>
-                        <li><strong>Scheduling Flow:</strong> Process for booking meetings with qualified leads</li>
-                        <li><strong>Disqualification Flow:</strong> How to handle leads that don't meet your criteria</li>
-                    </ol>
-                    
-                    <h4>Design Principles:</h4>
-                    <ul>
-                        <li>Keep initial messages short and engaging</li>
-                        <li>Ask one question at a time</li>
-                        <li>Provide multiple-choice options when possible</li>
-                        <li>Include escape hatches for human assistance</li>
-                        <li>Maintain a conversational, friendly tone</li>
-                    </ul>
-                </div>
-                
-                <div class="step-box">
-                    <div class="step-number">5</div>
-                    <h3>Integration with Your Tech Stack</h3>
-                    <p>Connect your chatbot with your existing business systems:</p>
-                    <ul>
-                        <li>CRM (Salesforce, HubSpot, etc.)</li>
-                        <li>Email marketing platform</li>
-                        <li>Calendar/scheduling software</li>
-                        <li>Support ticketing system</li>
-                        <li>Analytics tools</li>
-                    </ul>
-                    
-                    <h4>Integration Benefits:</h4>
-                    <ul>
-                        <li>Automatic lead record creation</li>
-                        <li>Synchronized data across systems</li>
-                        <li>Streamlined handoff to human team members</li>
-                        <li>Comprehensive reporting</li>
-                    </ul>
-                </div>
-                
-                <div class="step-box">
-                    <div class="step-number">6</div>
-                    <h3>Testing and Optimization</h3>
-                    <p>Before full deployment:</p>
-                    <ol>
-                        <li>Conduct internal testing with team members</li>
-                        <li>Run A/B tests on different conversation flows</li>
-                        <li>Gather feedback from a small segment of customers</li>
-                        <li>Review and refine based on initial performance</li>
-                    </ol>
-                    
-                    <h4>Testing Checklist:</h4>
-                    <ul>
-                        <li>Does the chatbot correctly identify qualified leads?</li>
-                        <li>Are conversations natural and engaging?</li>
-                        <li>Does the integration with other systems work properly?</li>
-                        <li>Is the handoff to human team members smooth?</li>
-                        <li>Are there any common questions the chatbot can't handle?</li>
-                    </ul>
-                </div>
             </div>
         </div>
     </section>
-
-    <section id="best-practices" class="content-section">
-        <div class="container">
-            <h2>5. Best Practices for Effective Lead Qualification</h2>
-            
-            <div class="practices-container">
-                <div class="practice-box">
-                    <h3>Conversational Design Principles</h3>
-                    <p><strong>Be Transparent:</strong> Let users know they're talking to an AI assistant.</p>
-                    <div class="example-box">
-                        <p>"Hi there! I'm [Name], the virtual assistant for [Company]. I'm here to understand your needs and connect you with the right person on our team."</p>
-                    </div>
-                    
-                    <p><strong>Keep It Conversational:</strong> Use natural language rather than formal business speak.</p>
-                    <div class="example-box">
-                        <p>Instead of "Please provide your industry classification," use "What industry are you in?"</p>
-                    </div>
-                    
-                    <p><strong>Progressive Disclosure:</strong> Start with simple questions before asking for more detailed information.</p>
-                    <div class="example-box">
-                        <p>Begin with "What brought you to our website today?" before diving into qualification questions.</p>
-                    </div>
-                </div>
-                
-                <div class="practice-box">
-                    <h3>Qualification Strategy</h3>
-                    <p><strong>The BANT Framework Adapted for Chatbots:</strong></p>
-                    
-                    <ol>
-                        <li>
-                            <strong>Budget:</strong> "What budget range have you allocated for this project?"
-                            <ul>
-                                <li>Provide ranges rather than asking for specific numbers</li>
-                                <li>Consider asking this later in the conversation</li>
-                            </ul>
-                        </li>
-                        
-                        <li>
-                            <strong>Authority:</strong> "Will you be the primary decision-maker for this purchase?"
-                            <ul>
-                                <li>If not, ask about the decision-making process</li>
-                                <li>Offer resources they can share with decision-makers</li>
-                            </ul>
-                        </li>
-                        
-                        <li>
-                            <strong>Need:</strong> "What specific challenges are you looking to solve?"
-                            <ul>
-                                <li>Use this to tailor subsequent questions</li>
-                                <li>Validate if your solution addresses their specific needs</li>
-                            </ul>
-                        </li>
-                        
-                        <li>
-                            <strong>Timeline:</strong> "When are you looking to implement a solution?"
-                            <ul>
-                                <li>Helps prioritize follow-up</li>
-                                <li>Allows for appropriate nurturing strategies</li>
-                            </ul>
-                        </li>
-                    </ol>
-                </div>
-                
-                <div class="practice-box">
-                    <h3>Handling Objections</h3>
-                    <p>Program your chatbot to recognize and address common objections:</p>
-                    
-                    <div class="objection-box">
-                        <h4>Price Objections:</h4>
-                        <p>"I understand budget is an important consideration. Many of our clients found that the ROI from increased conversion rates offset the investment within the first 3 months. Would it be helpful to see some case studies on this?"</p>
-                    </div>
-                    
-                    <div class="objection-box">
-                        <h4>Trust Objections:</h4>
-                        <p>"I completely understand wanting to be sure about who you work with. We've been helping businesses like yours since [year], and I'd be happy to connect you with some of our existing clients who had similar concerns."</p>
-                    </div>
-                    
-                    <div class="objection-box">
-                        <h4>Timing Objections:</h4>
-                        <p>"No problem! Many businesses need time to plan implementation. Would you like me to send you some resources to review in the meantime, or schedule a call for when your timeline aligns better?"</p>
-                    </div>
-                </div>
-                
-                <div class="practice-box">
-                    <h3>Human Handoff Protocols</h3>
-                    <p>Define clear triggers for when the chatbot should transfer to a human:</p>
-                    
-                    <ol>
-                        <li><strong>Explicit Requests:</strong> When a user asks to speak to a human</li>
-                        <li><strong>Confusion Triggers:</strong> When a user expresses frustration or repeats questions</li>
-                        <li><strong>High-Value Indicators:</strong> When a lead meets specific high-value criteria</li>
-                        <li><strong>Complex Scenarios:</strong> When questions or needs fall outside the chatbot's capabilities</li>
-                    </ol>
-                    
-                    <div class="example-box">
-                        <h4>Smooth Transition Example:</h4>
-                        <p>"Based on what you've shared, I think it would be valuable for you to speak directly with our lead solution specialist. I can transfer our conversation to them now, or schedule a call at a time that works for you. What would you prefer?"</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="measuring" class="content-section alt-bg">
-        <div class="container">
-            <h2>6. Measuring Success: KPIs and Analytics</h2>
-            
-            <div class="metrics-container">
-                <div class="metrics-box">
-                    <h3>Key Performance Indicators</h3>
-                    
-                    <div class="metric-category">
-                        <h4>Conversation Metrics:</h4>
-                        <ul>
-                            <li>Engagement Rate: Percentage of visitors who interact with the chatbot</li>
-                            <li>Completion Rate: Percentage of conversations that complete the qualification flow</li>
-                            <li>Abandonment Points: Where users most commonly drop off</li>
-                            <li>Average Conversation Length: Time and number of messages exchanged</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="metric-category">
-                        <h4>Qualification Metrics:</h4>
-                        <ul>
-                            <li>Qualification Rate: Percentage of chatbot conversations that result in qualified leads</li>
-                            <li>Lead Quality Score: How well chatbot-qualified leads convert compared to other sources</li>
-                            <li>False Positive Rate: Leads marked as qualified that sales determines are not qualified</li>
-                            <li>False Negative Rate: Leads marked as unqualified that should have been qualified</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="metric-category">
-                        <h4>Business Impact Metrics:</h4>
-                        <ul>
-                            <li>Response Time Improvement: Reduction in average lead response time</li>
-                            <li>Conversion Rate: Percentage of chatbot interactions that convert to customers</li>
-                            <li>Cost Per Qualified Lead: Total chatbot costs divided by number of qualified leads</li>
-                            <li>ROI: Revenue attributed to chatbot-qualified leads compared to chatbot costs</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="metrics-box">
-                    <h3>Analytics and Optimization</h3>
-                    
-                    <div class="analytics-category">
-                        <h4>Regular Review Process:</h4>
-                        <ol>
-                            <li><strong>Weekly:</strong> Check basic engagement metrics and identify any technical issues</li>
-                            <li><strong>Monthly:</strong> Analyze qualification accuracy and conversation flows</li>
-                            <li><strong>Quarterly:</strong> Conduct deeper analysis of business impact and ROI</li>
-                        </ol>
-                    </div>
-                    
-                    <div class="analytics-category">
-                        <h4>Continuous Improvement Strategies:</h4>
-                        
-                        <ol>
-                            <li>
-                                <strong>Conversation Mining:</strong> Analyze actual conversations to identify:
-                                <ul>
-                                    <li>Common questions the chatbot struggles with</li>
-                                    <li>New objections that need to be addressed</li>
-                                    <li>Language patterns that resonate with users</li>
-                                </ul>
-                            </li>
-                            
-                            <li>
-                                <strong>A/B Testing:</strong>
-                                <ul>
-                                    <li>Test different opening messages</li>
-                                    <li>Compare qualification question sequences</li>
-                                    <li>Evaluate different objection handling approaches</li>
-                                </ul>
-                            </li>
-                            
-                            <li>
-                                <strong>Feedback Loops:</strong>
-                                <ul>
-                                    <li>Add a quick satisfaction question at the end of conversations</li>
-                                    <li>Gather feedback from sales team on lead quality</li>
-                                    <li>Review chatbot performance with customers who converted</li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="virtus" class="content-section">
-        <div class="container">
-            <h2>7. How Virtus Can Help</h2>
-            
-            <p>While implementing AI chatbots for lead response can deliver significant benefits, many businesses find that expert guidance accelerates results and avoids common pitfalls. At Virtus, we specialize in AI-powered lead conversion solutions that are tailored to your specific business needs.</p>
-            
-            <div class="approach-container">
-                <h3>Our Implementation Approach</h3>
-                
-                <div class="approach-steps">
-                    <div class="approach-step">
-                        <div class="step-number">1</div>
-                        <h4>Strategic Analysis</h4>
-                        <p>We analyze your current lead flow, qualification criteria, and conversion process to identify exactly where and how AI can create the biggest impact for your specific business.</p>
-                    </div>
-                    
-                    <div class="approach-step">
-                        <div class="step-number">2</div>
-                        <h4>Custom Configuration</h4>
-                        <p>We configure your AI chatbot to reflect your brand voice, ask the right qualification questions, and seamlessly integrate with your existing systems.</p>
-                    </div>
-                    
-                    <div class="approach-step">
-                        <div class="step-number">3</div>
-                        <h4>Optimization & Support</h4>
-                        <p>We don't just set it and forget it. We continuously monitor performance, make adjustments, and ensure you're getting maximum ROI from your implementation.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="next-steps" class="content-section alt-bg">
-        <div class="container">
-            <h2>8. Next Steps</h2>
-            
-            <p>Ready to transform your lead response with AI chatbots? Here are your options for moving forward:</p>
-            
-            <div class="options-container">
-                <div class="option-box">
-                    <h3>Option 1: Implement on Your Own</h3>
-                    <p>Use the strategies and best practices in this guide to implement an AI chatbot solution for your business. Remember to:</p>
-                    <ul>
-                        <li>Start with clear objectives</li>
-                        <li>Map your qualification process thoroughly</li>
-                        <li>Select the right platform for your needs</li>
-                        <li>Design conversation flows carefully</li>
-                        <li>Test extensively before full deployment</li>
-                    </ul>
-                </div>
-                
-                <div class="option-box highlight-option">
-                    <h3>Option 2: Discover How to Multiply Your Revenue</h3>
-                    <p>We've prepared a special video presentation that shows exactly how our AAA System can transform your business with AI-powered lead conversion.</p>
-                    <p>In this exclusive presentation, you'll discover:</p>
-                    <ul>
-                        <li>The exact system we use to multiply our clients' revenue</li>
-                        <li>How AI and marketing automation work together to create exponential results</li>
-                        <li>Real case studies of businesses that have transformed their lead conversion</li>
-                        <li>The step-by-step process to implement this in your business</li>
-                    </ul>
-                    <a href="https://value.virtusmidia.com/aaasystem" target="_blank" class="cta-button">Watch The Video Now</a>
-                </div>
-                
-                <div class="option-box">
-                    <h3>Option 3: Schedule a Free Discovery Call</h3>
-                    <p>If you'd prefer personalized guidance, schedule a free 30-minute discovery call with one of our AI Implementation Specialists. During this call, we'll:</p>
-                    <ul>
-                        <li>Understand your specific business challenges</li>
-                        <li>Learn about your current lead response process</li>
-                        <li>Identify your ideal customer profile and qualification criteria</li>
-                        <li>Answer any questions you have about implementation</li>
-                    </ul>
-                    
-                    <!-- Calendly inline widget -->
-                    <div class="calendly-inline-widget" data-url="https://calendly.com/protocolo-kmy/the-funnel-call?primary_color=ff261c" style="min-width:320px;height:700px;"></div>
-                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="images/virtus-logo.png" alt="Virtus Logo">
-                </div>
-                <div class="footer-info">
-                    <p>&copy; 2025 Virtus | AI-Powered Lead Conversion Solutions</p>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-<script type="text/javascript">
-(function($) {
-    window.fnames = new Array();
-    window.ftypes = new Array();
-    fnames[0]='EMAIL'; ftypes[0]='email';
-    fnames[1]='FNAME'; ftypes[1]='text';
-    fnames[3]='PHONE'; ftypes[3]='phone';
-    fnames[2]='MMERGE2'; ftypes[2]='text';
-}(jQuery));
-var $mcj = jQuery.noConflict(true);
-</script>
 </body>
 </html>
